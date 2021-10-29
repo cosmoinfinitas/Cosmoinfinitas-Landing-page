@@ -35,7 +35,7 @@ const Footer = () => {
               <div className="col-lg-4 col-md-6 ">
                 <div className="footer-info">
                   <img
-                    src="assets/img/ft-logo.png"
+                    src="assets/img/logo-main-nav.png"
                     alt=""
                     className="img-fluid"
                   />
