@@ -4,9 +4,8 @@ const ViewCard = () => {
   return (
     <>
       <section id="about" className="text-center about">
-      
         <div className="container" data-aos="fade-up">
-        <h1>About US</h1>
+          <h1>About US</h1>
           <div className="row">
             {/* <div
               className="col-lg-6 order-1 order-lg-2"
@@ -50,21 +49,45 @@ const ViewCard = () => {
                 mollit anim id est laborum
               </p>
             </div> */}
-            <div class="col-md-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200" >
-              <span class="icofont-ui-user-group"></span>
-              <h2>Section 1</h2>
-              <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+            <div
+              class="col-md-6 col-ex-12 about-item wow lightSpeedIn"
+              data-wow-offset="200"
+            >
+              <span class="icofont-question"></span>
+              <h2>What exactly is CosmoInfinitas?</h2>
+              <p class="lead">
+                Cosmo means World in Greek and Infinitas means Infinity in
+                Latin,this means that we the team of Cosmoinfinitas are trying
+                to create a Virtual World with infinity Possibilities.
+              </p>
             </div>
-            <div class="col-md-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200">
-              <span class="icofont-ui-user-group"></span>
-              <h2>Section 2 </h2>
-              <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum </p>
+            <div
+              class="col-md-6 col-ex-12 about-item wow lightSpeedIn"
+              data-wow-offset="200"
+            >
+              <span class="icofont-at"></span>
+              <h2> Why choose CosmoInfinitas?</h2>
+              <p class="lead">
+                We are trying to create a world where the complete control over
+                the Platform are at the hands of Community. We are creating a
+                something similar to LOOT Project which recently changed the NFT
+                Community by storm and here we are trying to implement something
+                like that to Metaverse
+              </p>
             </div>
             <div class="clearfix visible-md-block visible-sm-block"></div>
-            <div class="col-md-6  col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200">
+            <div
+              class="col-md-6  col-ex-12 about-item wow lightSpeedIn"
+              data-wow-offset="200"
+            >
               <span class="icofont-ui-user-group"></span>
-              <h2>Section 3</h2>
-              <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+              <h2>How will it work?</h2>
+              <p class="lead">
+                We are a platform where users can buy and sell Land, Avatars and
+                other wearables with the security of Ethereum Blockchain on top
+                of it. And we will be soon releasing our own LOOT like Project
+                named ORE. Exciting times ahead.
+              </p>
             </div>
           </div>
         </div>

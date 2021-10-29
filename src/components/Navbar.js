@@ -5,52 +5,58 @@ const Navbar = () => {
     <header id="header" className="fixed-top d-flex align-items-cente">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
         <a href="index.html" className="logo me-auto me-lg-0">
-          <img src="assets/img/logo.png" alt="" className="img-fluid" />
+          <img
+            src="assets/img/logo-main-nav.png"
+            alt=""
+            className="img-fluid"
+            width="70px"
+            id="logo"
+          />
         </a>
 
         <nav id="navbar" className="navbar order-last order-lg-0">
           <ul>
             <li>
               <a className="nav-link scrollto active" href="#hero">
-                Home
+                <strong>HOME</strong>
               </a>
             </li>
             <li>
               <a
                 className="nav-link scrollto "
-                href="https://cosmo-marketplace.vercel.app/"
+                href="https://cosmoinfinitas-marketplace.vercel.app/"
               >
-                MarketPlace
+                <strong>MARKETPLACE</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#about">
-                About
+                <strong>ABOUT</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#specials">
-                Docs
+                <strong>DOCS</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#events">
-                Events
+                <strong>EVENTS</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#chefs">
-                Blogs
+                <strong>BLOGS</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#gallery">
-                WhitePaper
+                <strong>WHITEPAPER</strong>
               </a>
             </li>
             <li>
               <a className="nav-link scrollto" href="#contact">
-                Contact
+                <strong>CONTACT</strong>
               </a>
             </li>
           </ul>
@@ -60,7 +66,7 @@ const Navbar = () => {
           href="#book-a-table"
           className="book-a-table-btn scrollto d-none d-lg-flex"
         >
-          Start Exploring
+          <strong>Start Exploring</strong>
         </a>
       </div>
     </header>
