@@ -18,7 +18,7 @@ const Team = (props) => {
           <TeamCard
             src="assets/img/sifan.jpeg"
             title="Sifan Khan"
-            post="Co-founder & Blockchain Devloper"
+            post="Co-founder & Blockchain Developer"
             linkedin="#"
             github="#"
             insta="#"
