@@ -21,7 +21,7 @@ const Team = (props) => {
             post="Co-founder & Blockchain Developer"
             linkedin="https://www.linkedin.com/in/sifan-khan-2359a1192/"
             github="https://github.com/Zephyr-Phoenix"
-            insta="#"
+            insta="https://www.instagram.com/_khan.shifan_/"
           />
           <TeamCard
             src="assets/img/mypic.jpg"
