@@ -19,7 +19,7 @@ const TeamCard = (props) => {
           <a href={props.linkedin} class="icofont-linkedin"></a>
         </li>
         <li>
-          <a href={props.insta} class="icofont-instagram"></a>
+          <a href={props.twitter} class="icofont-twitter"></a>
         </li>
       </ul>
     </div>

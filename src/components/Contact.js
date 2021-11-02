@@ -175,7 +175,6 @@ const Contact = () => {
                 <i class="icofont-send-mail"></i>
                 <div class="topic">Email</div>
                 <div class="text-one">cosmoinfinitas@gmail.com</div>
-                <div class="text-two">imabhisekyadav@gmail.com</div>
               </div>
             </div>
             <div class="right-side">
