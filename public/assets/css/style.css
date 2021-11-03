@@ -208,7 +208,7 @@ h1 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -1449,7 +1449,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #27aae1;
+  background: #75160a;
   color: #fff;
   text-decoration: none;
 }
@@ -1474,7 +1474,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #cda45e;
+  color: #c20b0b;
   font-size: 18px;
   line-height: 1;
 }
@@ -1497,7 +1497,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #27aae1;
+  color: #a71704;
 }
 
 #footer .footer-top .footer-newsletter form {

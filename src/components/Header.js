@@ -1,4 +1,5 @@
 import React from "react";
+import wip from "./wip";
 
 const Header = () => {
   return (
@@ -58,14 +59,17 @@ const Header = () => {
               <h1>
                 Welcome to <br /> <span>CosmoInfinitas</span>
               </h1>
-              <h2>An Infinity World of Entertainment</h2>
+              <h2>The World Of Infinite Possibilities</h2>
 
               <div class="btns">
-                <a href="#menu" class="btn-menu animated fadeInUp scrollto">
+                <a
+                  href="https://cosmoinfinitas-marketplace.vercel.app/"
+                  class="btn-menu animated fadeInUp scrollto"
+                >
                   Get Started
                 </a>
                 <a
-                  href="https://discord.gg/kgRAGZHQ"
+                  href="https://discord.gg/9YnyyBVjHA"
                   class="btn-book animated fadeInUp scrollto"
                 >
                   Join Our Discord

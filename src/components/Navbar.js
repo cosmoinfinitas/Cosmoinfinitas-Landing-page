@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
         <a href="index.html" className="logo me-auto me-lg-0">
           <img
-            src="assets/img/logo-main-nav.png"
+            src="assets/img/ci.png"
             alt=""
             className="img-fluid"
             width="70px"
@@ -45,7 +45,10 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a className="nav-link scrollto" href="#chefs">
+              <a
+                className="nav-link scrollto"
+                href="https://medium.com/@cosmoinfinitas"
+              >
                 <strong>BLOGS</strong>
               </a>
             </li>

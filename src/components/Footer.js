@@ -12,11 +12,12 @@ const Footer = () => {
                 <h4>Useful Links</h4>
                 <ul>
                   <li>
-                    <i className="bx bx-chevron-right"></i> <a href="#">Home</a>
+                    <i className="bx bx-chevron-right"></i>{" "}
+                    <a href="#hero">Home</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">About us</a>
+                    <a href="#about">About us</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
@@ -34,11 +35,7 @@ const Footer = () => {
               </div>
               <div className="col-lg-4 col-md-6 ">
                 <div className="footer-info">
-                  <img
-                    src="assets/img/logo-main-nav.png"
-                    alt=""
-                    className="img-fluid"
-                  />
+                  <img src="assets/img/ci.png" alt="" className="img-fluid" />
                   <p>
                     Burla, Sambalpur <br />
                     Odisha, India
@@ -50,19 +47,25 @@ const Footer = () => {
                     <br />
                   </p>
                   <div className="social-links mt-3">
-                    <a href="#" className="twitter">
+                    <a
+                      href="https://twitter.com/CosmoInfinitas"
+                      className="twitter"
+                    >
                       <i className="bx bxl-twitter"></i>
                     </a>
-                    <a href="#" className="facebook">
-                      <i className="bx bxl-facebook"></i>
+                    <a href="https://t.me/cosmoinfinitas" className="facebook">
+                      <i className="bx bxl-telegram"></i>
                     </a>
-                    <a href="#" className="instagram">
+                    <a
+                      href="https://www.instagram.com/cosmo_infinitas/"
+                      className="instagram"
+                    >
                       <i className="bx bxl-instagram"></i>
                     </a>
-                    <a href="#" className="google-plus">
-                      <i className="bx bxl-skype"></i>
-                    </a>
-                    <a href="#" className="linkedin">
+                    <a
+                      href="https://www.linkedin.com/in/cosmoinfinitas/"
+                      className="linkedin"
+                    >
                       <i className="bx bxl-linkedin"></i>
                     </a>
                   </div>
