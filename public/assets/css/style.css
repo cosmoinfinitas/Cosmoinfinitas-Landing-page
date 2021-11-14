@@ -1339,7 +1339,7 @@ section {
   display: inline-block;
   margin-top: 12px;
 }
-.right-side .button input[type="button"] {
+.right-side .button button[type="submit"] {
   color: #fff;
   font-size: 18px;
   outline: none;
@@ -1350,7 +1350,7 @@ section {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.button input[type="button"]:hover {
+.button button[type="submit"]:hover {
   background: #45070e;
 }
 
