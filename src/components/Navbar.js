@@ -24,7 +24,7 @@ const Navbar = () => {
             <li>
               <a
                 className="nav-link scrollto "
-                href="https://market.cosmoinfinitas.tech/git "
+                href="https://market.cosmoinfinitas.tech/"
               >
                 <strong>MARKETPLACE</strong>
               </a>
