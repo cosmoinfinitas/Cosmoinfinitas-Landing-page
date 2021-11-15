@@ -55,11 +55,11 @@ const Contact = () => {
       alert("plz fill the data");
     }
   };
-  const style = {
-    border: "0",
-    width: "100%",
-    height: "290px",
-  };
+  // const style = {
+  //   border: "0",
+  //   width: "100%",
+  //   height: "290px",
+  // };
   const s = {
     color: "white",
     textalign: "center",
