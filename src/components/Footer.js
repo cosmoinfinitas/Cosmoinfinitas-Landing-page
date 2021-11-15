@@ -13,23 +13,23 @@ const Footer = () => {
                 <ul>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#hero">Home</a>
+                    <a href="/#hero">Home</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#about">About us</a>
+                    <a href="/#about">About us</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Services</a>
+                    <a href="/#">Services</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Terms of service</a>
+                    <a href="/#">Terms of service</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Privacy policy</a>
+                    <a href="/#">Privacy policy</a>
                   </li>
                 </ul>
               </div>

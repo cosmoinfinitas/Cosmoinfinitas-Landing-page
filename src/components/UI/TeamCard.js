@@ -13,13 +13,13 @@ const TeamCard = (props) => {
 
       <ul class="social">
         <li>
-          <a href={props.github} class="icofont-github"></a>
+          <a href={props.github} class="icofont-github"> </a>
         </li>
         <li>
-          <a href={props.linkedin} class="icofont-linkedin"></a>
+          <a href={props.linkedin} class="icofont-linkedin"> </a>
         </li>
         <li>
-          <a href={props.twitter} class="icofont-twitter"></a>
+          <a href={props.twitter} class="icofont-twitter"> </a>
         </li>
       </ul>
     </div>
