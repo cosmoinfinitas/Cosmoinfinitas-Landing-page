@@ -459,12 +459,14 @@ h1 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/bg-1.png") top center;
-  background-size: cover;
+  /* background: url("../img/bg-1.png") top center;
+  background-size: cover; */
   position: relative;
   padding: 0;
 }
-
+#inner_heading-canvas {
+  /* position: fixed; */
+}
 #hero:before {
   content: "";
   /* background: rgba(0, 0, 0, 0.5); */
@@ -477,6 +479,8 @@ h1 {
 
 #hero .container {
   padding-top: 110px;
+  position: absolute !important;
+  left: 30px;
 }
 
 @media (max-width: 992px) {
