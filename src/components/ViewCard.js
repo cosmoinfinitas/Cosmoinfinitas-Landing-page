@@ -48,7 +48,7 @@ const ViewCard = () => {
           </div> */}
 
           <div class="row">
-            <div class="col-lg-6 pt-3 pt-lg-0 content">
+            <div class="col-md-4 pt-3 pt-lg-0 content">
               <div
                 class="col-md-12 col-ex-12 about-item wow lightSpeedIn"
                 data-wow-offset="200"
@@ -62,33 +62,7 @@ const ViewCard = () => {
               </div>
             </div>
             <div
-              class="col-lg-6 video-box align-self-baseline"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <img src="assets/img/post.png" class="img-fluid" alt="" />
-              <a
-                href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
-                class="glightbox play-btn mb-4"
-              ></a>
-            </div>
-          </div>
-          <div className="row">
-            <div
-              class="col-md-6 col-ex-12 about-item wow lightSpeedIn"
-              data-wow-offset="200"
-            >
-              <span class="icofont-at"></span>
-              <h2> Why choose CosmoInfinitas?</h2>
-              <p class="lead">
-                We are creating a platform influenced by the recent Loot project
-                which added spark to the world of NFT community through its
-                exclusive approach. Cosmoinfinitas is trying to implement
-                something similar to the LOOT Project with Metaverse.
-              </p>
-            </div>
-            <div
-              class="col-md-6  col-ex-12 about-item wow lightSpeedIn"
+              class="col-md-4  col-ex-12 about-item wow lightSpeedIn"
               data-wow-offset="200"
             >
               <span class="icofont-ui-user-group"></span>
@@ -99,6 +73,37 @@ const ViewCard = () => {
                 top of it. Apart from this, we will soon be releasing our own
                 loot like project named ORE.
               </p>
+            </div>
+            <div
+              class="col-md-4 col-ex-12 about-item wow lightSpeedIn"
+              data-wow-offset="200"
+            >
+              <span class="icofont-at"></span>
+              <h2 id="choose"> Why choose CosmoInfinitas?</h2>
+              <p class="lead">
+                We are creating a platform influenced by the recent Loot project
+                which added spark to the world of NFT community through its
+                exclusive approach. Cosmoinfinitas is trying to implement
+                something similar to the LOOT Project with Metaverse.
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            <div
+              class="col-lg-12 video-box align-self-baseline justify-content-center"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <img
+                src="assets/img/post.png"
+                class="img-fluid"
+                alt=""
+                width="700px"
+              />
+              <a
+                href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
+                class="glightbox play-btn mb-4"
+              ></a>
             </div>
           </div>
         </div>
