@@ -1,13 +1,6 @@
 import React from "react";
-import {useHistory} from 'react-router-dom'
-
-const c={
-  color:'white'
-}
 
 const Navbar = () => {
-  const history = useHistory();
-  const handleOnClick =() => {history.push('../market')}
   return (
     <header id="header" className="fixed-top d-flex align-items-cente">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
@@ -70,22 +63,47 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-               {/* <a
+              {/* <a
                 className="nav-link scrollto "
                 href="#market" onClick={handleOnClick}
               >
                 <strong>MARKETPLACE</strong>
               </a>  */}
               <div class="dropdown">
-  <a class="btn dropdown-toggle" href="#market" onClick={handleOnClick} type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-   <strong> MARKETPLACE</strong>
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item" href="https://www.google.com">ETHEREUM</a></li>
-    <li><a class="dropdown-item" href="#">BINANCE</a></li>
-    <li><a class="dropdown-item" href="#">POLYGON</a></li>
-  </ul>
-</div>
+                <a
+                  class="btn dropdown-toggle"
+                  href="#market"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <strong> MARKETPLACE</strong>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://market.cosmoinfinitas.tech/"
+                    >
+                      ETHEREUM
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://binance.market.cosmoinfinitas.tech/"
+                    >
+                      BINANCE
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/#">
+                      POLYGON
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle"></i>
@@ -96,8 +114,6 @@ const Navbar = () => {
         >
           <strong>Start Exploring</strong>
         </a> */}
-    
-      
       </div>
     </header>
   );

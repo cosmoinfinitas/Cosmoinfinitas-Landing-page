@@ -21,7 +21,7 @@ const Header = () => {
 
               <div class="btns">
                 <a href={market} class="btn-menu animated fadeInUp scrollto">
-                  Get Started
+                  Start Exploring
                 </a>
                 <a href={discord} class="btn-book animated fadeInUp scrollto">
                   Join Our Discord
