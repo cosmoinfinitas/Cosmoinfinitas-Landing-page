@@ -1,4 +1,5 @@
 import React from "react";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
@@ -61,6 +62,24 @@ const Navbar = () => {
               <a className="nav-link scrollto" href="#contact">
                 <strong>CONTACT</strong>
               </a>
+            </li>
+            <li>
+              <div class="popover__wrapper">
+                <a
+                  className="nav-link scrollto"
+                  href="https://rinkeby.etherscan.io/address/0x90157327379872dc3e9b1D64eB19ee9025A135B4#code"
+                >
+                  <b>COSMO ORE</b>
+                </a>
+                <div class="popover__content">
+                  <p class="popover__message">
+                    A unique fusion of words generated arbitrarily and displayed
+                    on a card. Respective data available after minting on chain
+                    are conceivable. It can be minted without any fees and could
+                    be bought at a minimum transaction fees.
+                  </p>
+                </div>
+              </div>
             </li>
             <li>
               {/* <a
