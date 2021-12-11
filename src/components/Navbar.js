@@ -67,7 +67,7 @@ const Navbar = () => {
               <div class="popover__wrapper">
                 <a
                   className="nav-link scrollto"
-                  href="https://rinkeby.etherscan.io/address/0x90157327379872dc3e9b1D64eB19ee9025A135B4#code"
+                  href="https://rinkeby.etherscan.io/address/0x570a15FBCdC2074E306EB99EA0a1Dd69A4c17f3E#code"
                 >
                   <b>COSMO ORE</b>
                 </a>
