@@ -117,7 +117,10 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/#">
+                    <a
+                      class="dropdown-item"
+                      href="https://polygon.market.cosmoinfinitas.tech/"
+                    >
                       POLYGON
                     </a>
                   </li>

@@ -60,7 +60,7 @@ const ViewCard = () => {
                 width="700px"
               />
               <a
-                href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
+                href="https://www.youtube.com/watch?v=dbEI5XTmXtQ&t=52s"
                 class="glightbox play-btn mb-4"
               >
                 {" "}
