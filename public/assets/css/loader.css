@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+.load{
+    width:100%;
+    height:100%;
+    position:absolute;
+    display: flex;
+    
+    background-color: #0c0c0c;
+}
+.pre-loader{
+    
+  font-family: 'Lato', sans-serif;
+  background: #0c0c0c;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* .container{
+  display:flex;
+  flex-direction:row;
+} */
+.part1{
+  font-weight:600;
+  font-size:4rem;
+  color: #eaf0f3;  
+}
+
+
+
+.part1{
+    animation: loading 1.8s infinite;      
+}
+#head{
+  font-weight:600;
+  text-align:center;
+  font-size:2.5rem;
+  color:aliceblue;
+  /* animation: loading 1.8s infinite;       */
+  animation: color-change 1.0s infinite;
+}
+
+#head span{
+  animation: color-chang 1.0s infinite;
+}
+
+@keyframes color-chang {
+  0% { color: white; }
+  50% { color: red; }
+  100% { color: white; }
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: white; }
+  100% { color: red; }
+}
+
+@keyframes animation {
+    0% {
+        transform: translateX(0rem);
+    }
+    50% {
+        transform: translateX(10rem);
+    }
+    100% {
+        transform: translateX(0rem);
+    }
+  }
+  @keyframes loading {
+    0% {
+		transform: scale(1);
+	}
+	12% {
+		transform: scale(1.2);
+	}
+	24% {
+		transform: scale(1);
+	}
+	36% {
+		transform: scale(1.2);
+	}
+	48% {
+		transform: scale(1);
+	}
+  }

@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" >
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" >
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" >
     <link rel="manifest" href="/site.webmanifest" />
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#da532c" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" >
+    <meta name="msapplication-TileColor" content="#da532c" >
     <meta name="theme-color" content="#ffffff" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
@@ -61,8 +61,16 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style1.css" rel="stylesheet" />
-    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- <link href="assets/css/style1.css" rel="stylesheet" /> -->
+    <link href="assets/css/style.css" rel="stylesheet" >
+    
+    <link href="assets/css/games.css" rel="stylesheet" >
+    <link href="assets/css/loader.css" rel="stylesheet" >
+   
+
+
+    
+
 
     <!--  -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -78,14 +86,10 @@
     <title>Home-CosmoInfinitas</title>
   </head>
   <body>
-    <div class="preloader-eight-spinning">
-      <div class="cssload-lt"></div>
-      <div class="cssload-rt"></div>
-      <div class="cssload-lb"></div>
-      <div class="cssload-rb"></div>
-    </div>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    
+
+     
+    <!-- <div id="root"></div> -->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -96,9 +100,516 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <header id="header" class="fixed-top d-flex align-items-cente">
+      <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+        <a href="index.html" class="logo me-auto me-lg-0">
+          <img
+            src="assets/img/ci.png"
+            alt=""
+            class="img-fluid"
+            width="70px"
+            id="logo"
+          >
+        </a>
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li>
+              <a class="nav-link scrollto active" href="#hero">
+                <strong>HOME</strong>
+              </a>
+            </li>
+             <!-- <li>
+               <a
+                class="nav-link scrollto "
+                href="#market" onClick={handleOnClick}
+              >
+                <strong>MARKETPLACE</strong>
+              </a> 
+            </li>  -->
+            <li>
+              <a class="nav-link scrollto" href="ViewCard#about">
+                <strong>ABOUT</strong>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#specials">
+                <strong>DOCS</strong>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#events">
+                <strong>EVENTS</strong>
+              </a>
+            </li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                href="https://medium.com/@cosmoinfinitas"
+              >
+                <strong>BLOGS</strong>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#gallery">
+                <strong>WHITEPAPER</strong>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#contact">
+                <strong>CONTACT</strong>
+              </a>
+            </li>
+            <li>
+              <div class="popover__wrapper">
+                <a
+                  class="nav-link scrollto"
+                  href="https://rinkeby.etherscan.io/address/0x570a15FBCdC2074E306EB99EA0a1Dd69A4c17f3E#code"
+                >
+                  <b>COSMO ORE</b>
+                </a>
+                <div class="popover__content">
+                  <p class="popover__message">
+                    A unique fusion of words generated arbitrarily and displayed
+                    on a card. Respective data available after minting on chain
+                    are conceivable. It can be minted without any fees and could
+                    be bought at a minimum transaction fees.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <!-- {/* <a
+                class="nav-link scrollto "
+                href="#market" onClick={handleOnClick}
+              >
+                <strong>MARKETPLACE</strong>
+              </a>  */} -->
+              <div class="dropdown">
+                <a
+                  class="btn dropdown-toggle"
+                  href="#market"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <strong> MARKETPLACE</strong>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://market.cosmoinfinitas.tech/"
+                    >
+                      ETHEREUM
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://binance.market.cosmoinfinitas.tech/"
+                    >
+                      BINANCE
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://polygon.market.cosmoinfinitas.tech/"
+                    >
+                      POLYGON
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- {/* <a
+          href="#book-a-table"
+          class="book-a-table-btn scrollto d-none d-lg-flex"
+        >
+          <strong>Start Exploring</strong>
+        </a> */} -->
+      </div>
+    </header>
+
+    <section id="hero" class="d-flex align-items-center">
+      <canvas id="inner_heading-canvas" width="100" height="100" ></canvas>
+      <div
+        class="container position-relative text-center text-lg-start"
+        data-aos="zoom-in"
+        data-aos-delay="100"
+      >
+        <div class="row">
+          <div class="col-lg-8">
+            <h1>
+              Welcome to <br /> <span>CosmoInfinitas</span>
+            </h1>
+            <h2>The World Of Infinite Possibilities</h2>
+
+            <div class="btns">
+              <!-- {/* <a href={market} class="btn-menu animated fadeInUp scrollto">
+                Play Game
+              </a> */} -->
+              <a class="btn-menu animated fadeInUp scrollto" href="/games">Explore games</a>
+              <a href={discord} class="btn-book animated fadeInUp scrollto">
+                Join Our Discord
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- About section -->
+    <section id="about" class="text-center about">
+      <div class="container" data-aos="fade-up">
+        <h1>About US</h1>
+        <div class="row">
+          <div class="col-md-4 pt-3 pt-lg-0 content">
+            <div
+              class="col-md-12 col-ex-12 about-item wow lightSpeedIn"
+              data-wow-offset="200"
+            >
+              <span class="icofont-question"></span>
+              <h2>What exactly is CosmoInfinitas?</h2>
+              <p class="lead">
+                Cosmoinfinitas is a community driven metaverse wherein a
+                virtual world with infinity possibilities exists.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-4  col-ex-12 about-item wow lightSpeedIn"
+            data-wow-offset="200"
+          >
+            <span class="icofont-ui-user-group"></span>
+            <h2>How will it work?</h2>
+            <p class="lead">
+              This platform enables its users to buy and sell Land, Avatars,
+              and other wearables with the security of Ethereum Blockchain on
+              top of it. Apart from this, we will soon be releasing our own
+              loot like project named ORE.
+            </p>
+          </div>
+          <div
+            class="col-md-4 col-ex-12 about-item wow lightSpeedIn"
+            data-wow-offset="200"
+          >
+            <span class="icofont-at"></span>
+            <h2 id="choose"> Why choose CosmoInfinitas?</h2>
+            <p class="lead">
+              We are creating a platform influenced by the recent Loot project
+              which added spark to the world of NFT community through its
+              exclusive approach. Cosmoinfinitas is trying to implement
+              something similar to the LOOT Project with Metaverse.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-12 video-box align-self-baseline justify-content-center"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <img
+              src="assets/img/post.png"
+              class="img-fluid"
+              alt=""
+              width="700px"
+            >
+            <a
+              href="https://www.youtube.com/watch?v=dbEI5XTmXtQ&t=52s"
+              class="glightbox play-btn mb-4"
+            >
+              
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teampage -->
+    <!-- <section class="team">
+      <h1 class="text-center">Team</h1>
+      <div class="cont">    
+    <div class="our-team">
+      <div class="pic">
+        <img src="assets/img/abhisek.png" alt="" />
+      </div>
+      <div class="team-content">
+        <h2 class="title">Abhisek Yadav</h2>
+        <span class="post">Co-founder & Blockchain Developer</span>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href="https://github.com/Abhisek0x" class="icofont-github"> </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/abhisekyadav/" class="icofont-linkedin"> </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Abhisek__Yadav" class="icofont-twitter"> </a>
+        </li>
+      </ul>
+    </div>
+    <div class="our-team">
+      <div class="pic">
+        <img src="assets/img/abhisek.png" alt="" />
+      </div>
+      <div class="team-content">
+        <h2 class="title">Abhisek Yadav</h2>
+        <span class="post">Co-founder & Blockchain Developer</span>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href="https://github.com/Abhisek0x" class="icofont-github"> </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/abhisekyadav/" class="icofont-linkedin"> </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Abhisek__Yadav" class="icofont-twitter"> </a>
+        </li>
+      </ul>
+    </div>
+    <div class="our-team">
+      <div class="pic">
+        <img src="assets/img/abhisek.png" alt="" />
+      </div>
+      <div class="team-content">
+        <h2 class="title">Abhisek Yadav</h2>
+        <span class="post">Co-founder & Blockchain Developer</span>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href="https://github.com/Abhisek0x" class="icofont-github"> </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/abhisekyadav/" class="icofont-linkedin"> </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Abhisek__Yadav" class="icofont-twitter"> </a>
+        </li>
+      </ul>
+    </div>
+    <div class="our-team">
+      <div class="pic">
+        <img src="assets/img/abhisek.png" alt="" />
+      </div>
+      <div class="team-content">
+        <h2 class="title">Abhisek Yadav</h2>
+        <span class="post">Co-founder & Blockchain Developer</span>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href="https://github.com/Abhisek0x" class="icofont-github"> </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/abhisekyadav/" class="icofont-linkedin"> </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Abhisek__Yadav" class="icofont-twitter"> </a>
+        </li>
+      </ul>
+    </div>
+    
+
+    </div>
+    </section> -->
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <div class="section-title">
+        <p style="color:white;text-align:center;">Contact Us</p>
+      </div>
+      <div class="containe">
+        <div class="conten">
+          <div class="left-side">
+            <div class="address details">
+              <i class="icofont-address-book"></i>
+              <div class="topic">Address</div>
+              <div class="text-one"> Burla, Sambalpur </div>
+              <div class="text-two">Odisha, India</div>
+            </div>
+            <div class="phone details">
+              <i class="icofont-phone"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+91 7609 96 1010</div>
+              <div class="text-two">+91 9658 00 6706</div>
+            </div>
+            <div class="email details">
+              <i class="icofont-send-mail"></i>
+              <div class="topic">Email</div>
+              <div class="text-one"><a href="https://mail.google.com/mail/u/3/#inbox?compose=GTvVlcSHwQlmCLQQjKlZmNTpDSVvhWMbJDgncqcxfFWvrxdhlGtvBffKjspSxVGFSRDxtdnJNlNNz" target="_blank" style="color:white;">cosmoinfinitas@gmail.com</a></div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+            <!-- {/* <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p> */} -->
+            <form class="contactform">
+              <div class="input-box">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  
+                  
+                  
+                />
+              </div>
+              <div class="input-box">
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  
+                  
+                  
+                />
+              </div>
+              <div class="input-box message-box">
+                <input
+                  type="text"
+                  id="message"
+                  name="message"
+                  placeholder="Enter a short description"
+                 
+                  
+                  
+                 
+                />
+              </div>
+              <div class="button">
+                <!-- {/* <input type="button" value="Send" /> */} -->
+                <button type="submit">
+                  Send
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-top font-link">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="/#hero">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="/#about">About us</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="/#">Services</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="/#">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="/#">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+              <div class="footer-info">
+                <img src="assets/img/ci.png" alt="" class="img-fluid" />
+                <p>
+                  Burla, Sambalpur <br />
+                  Odisha, India
+                  <br />
+                  <br />
+                  <strong>Phone:</strong> +91 7609 96 1010 , +91 9658 00 6706
+                  <br />
+                  <strong>Email:</strong> cosmoinfinitas@gmail.com
+                  <br />
+                </p>
+                <div class="social-links mt-3">
+                  <a
+                    href="https://twitter.com/CosmoInfinitas"
+                    class="twitter"
+                  >
+                    <i class="bx bxl-twitter"></i>
+                  </a>
+                  <a href="https://t.me/cosmoinfinitas" class="facebook">
+                    <i class="bx bxl-telegram"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/cosmo_infinitas/"
+                    class="instagram"
+                  >
+                    <i class="bx bxl-instagram"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/cosmoinfinitas/"
+                    class="linkedin"
+                  >
+                    <i class="bx bxl-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-6 footer-newsletter">
+              <h4>Our Newsletter</h4>
+              <p>Stay connected with us </p>
+              <form action="" method="post">
+                <input type="email" name="email" />
+                <input type="submit" value="Coming Soon . . ." />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright
+          <strong>
+            <span>CosmoInfinitas</span>
+          </strong>
+          . All Rights Reserved
+        </div>
+      </div>
+    </footer>
+
+    <script>
+
+      var timeout;
+      function Function(){
+        timeout = setTimeout(myFunction, 1500);
+      }
+          var preloader = document.querySelector('.load');
+      function myFunction(){
+        preloader.style.display='none';
+      }
+      
+        </script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -107,4 +618,9 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/head.js"></script>
+  <!-- <script src="assets/js/form.js"></script> -->
+  </body>
+  <!-- Vendor JS Files -->
+ 
+  
 </html>

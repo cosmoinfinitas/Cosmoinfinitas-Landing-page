@@ -33,52 +33,8 @@ h1 {
   color: white;
 }
 
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #1a1814;
-}
 
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #1a1814;
-  border-top-color: #cda45e;
-  border-bottom-color: #cda45e;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
-}
 
-@-webkit-keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 /* ================ cosmo ore ==================== */
 
 /*--------------------------------------------------------------
@@ -125,6 +81,63 @@ h1 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+}
+
+
+/* navbar */
+a {
+  text-decoration: none;
+}
+
+.popover__title {
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: none;
+  color: rgb(228, 68, 68);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.popover__wrapper {
+  position: relative;
+  /* margin-top: 1.5rem; */
+  display: inline-block;
+  border-radius: 5px !important;
+}
+.popover__content {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  margin-top: 1.5rem;
+  left: -130px;
+  transform: translate(0, 10px);
+  background-color: #352a2a;
+  padding: 2.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  width: 55vh;
+  font-weight: 300;
+}
+.popover__content:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  right: calc(50% - 10px);
+  top: -8px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #352a2a transparent;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.popover__wrapper:hover .popover__content {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -20px);
+  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+.popover__message {
+  text-align: center;
 }
 
 /*--------------------------------------------------------------

@@ -1398,8 +1398,8 @@
 
       const isCycling = Boolean(this._interval);
       const isNext = order === ORDER_NEXT;
-      const directionalClassName = isNext ? CLASS_NAME_START : CLASS_NAME_END;
-      const orderClassName = isNext ? CLASS_NAME_NEXT : CLASS_NAME_PREV;
+      const directionalclass = isNext ? CLASS_NAME_START : CLASS_NAME_END;
+      const orderclass = isNext ? CLASS_NAME_NEXT : CLASS_NAME_PREV;
 
       const eventDirectionName = this._orderToDirection(order);
 
@@ -1439,15 +1439,15 @@
       };
 
       if (this._element.classList.contains(CLASS_NAME_SLIDE)) {
-        nextElement.classList.add(orderClassName);
+        nextElement.classList.add(orderclass);
         reflow(nextElement);
-        activeElement.classList.add(directionalClassName);
-        nextElement.classList.add(directionalClassName);
+        activeElement.classList.add(directionalclass);
+        nextElement.classList.add(directionalclass);
 
         const completeCallBack = () => {
-          nextElement.classList.remove(directionalClassName, orderClassName);
+          nextElement.classList.remove(directionalclass, orderclass);
           nextElement.classList.add(CLASS_NAME_ACTIVE$2);
-          activeElement.classList.remove(CLASS_NAME_ACTIVE$2, orderClassName, directionalClassName);
+          activeElement.classList.remove(CLASS_NAME_ACTIVE$2, orderclass, directionalclass);
           this._isSliding = false;
           setTimeout(triggerSlidEvent, 0);
         };
@@ -4320,7 +4320,7 @@
     _getElement() {
       if (!this._element) {
         const backdrop = document.createElement('div');
-        backdrop.className = CLASS_NAME_BACKDROP;
+        backdrop.class = CLASS_NAME_BACKDROP;
 
         if (this._config.isAnimated) {
           backdrop.classList.add(CLASS_NAME_FADE$5);

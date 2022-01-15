@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" >
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" >
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" >
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" >
+    <meta name="msapplication-TileColor" content="#da532c" >
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <!-- Fab-icons -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <!-- <link href="assets/css/style1.css" rel="stylesheet" /> -->
+    <link href="assets/css/style.css" rel="stylesheet" >
+    
+    <link href="assets/css/games.css" rel="stylesheet" >
+   
+   
+
+
+    
+
+
+    <!--  -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Home-CosmoInfinitas</title>
+  </head>
+  <body>
+    
+
+     
+    <!-- <div id="root"></div> -->
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <header id="header" class="fixed-top d-flex align-items-cente">
+      <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+        <a href="index.html" class="logo me-auto me-lg-0">
+          <img
+            src="assets/img/ci.png"
+            alt=""
+            class="img-fluid"
+            width="70px"
+            id="logo"
+          >
+        </a>
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li>
+              <a class="nav-link scrollto active" href="index.html#hero">
+                <strong>HOME</strong>
+              </a>
+            </li>
+             <!-- <li>
+               <a
+                class="nav-link scrollto "
+                href="#market" onClick={handleOnClick}
+              >
+                <strong>MARKETPLACE</strong>
+              </a> 
+            </li>  -->
+            <li>
+              <a class="nav-link scrollto" href="index.html#about">
+                <strong>ABOUT</strong>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="index.html#specials">
+                <strong>DOCS</strong>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="index.html#events">
+                <strong>EVENTS</strong>
+              </a>
+            </li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                href="https://medium.com/@cosmoinfinitas"
+              >
+                <strong>BLOGS</strong>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#gallery">
+                <strong>WHITEPAPER</strong>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#contact">
+                <strong>CONTACT</strong>
+              </a>
+            </li>
+            <li>
+              <div class="popover__wrapper">
+                <a
+                  class="nav-link scrollto"
+                  href="https://rinkeby.etherscan.io/address/0x570a15FBCdC2074E306EB99EA0a1Dd69A4c17f3E#code"
+                >
+                  <b>COSMO ORE</b>
+                </a>
+                <div class="popover__content">
+                  <p class="popover__message">
+                    A unique fusion of words generated arbitrarily and displayed
+                    on a card. Respective data available after minting on chain
+                    are conceivable. It can be minted without any fees and could
+                    be bought at a minimum transaction fees.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <!-- {/* <a
+                class="nav-link scrollto "
+                href="#market" onClick={handleOnClick}
+              >
+                <strong>MARKETPLACE</strong>
+              </a>  */} -->
+              <div class="dropdown">
+                <a
+                  class="btn dropdown-toggle"
+                  href="#market"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <strong> MARKETPLACE</strong>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://market.cosmoinfinitas.tech/"
+                    >
+                      ETHEREUM
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://binance.market.cosmoinfinitas.tech/"
+                    >
+                      BINANCE
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://polygon.market.cosmoinfinitas.tech/"
+                    >
+                      POLYGON
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- {/* <a
+          href="#book-a-table"
+          class="book-a-table-btn scrollto d-none d-lg-flex"
+        >
+          <strong>Start Exploring</strong>
+        </a> */} -->
+      </div>
+    </header>
+
+
+<section class="wrapper">
+    <div class="container">
+    
+    <div class="row">
+   <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('assets/img/game.png'); ">
+           <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+          <div class="card-img-overlay d-flex flex-column">
+           <div class="card-body">
+              <!-- <small class="card-meta mb-2">Thought Leadership</small> -->
+              <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+             
+            </div>
+            <div class="card-footer">
+             <div class="media">
+    <img class="m-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
+    <div class="media-body">
+        <button class="btn btn-danger" href="https://play.unity.com/mg/other/project-vsx-maze1">Play Now</button>
+    </div>
+  </div>
+            </div>
+          </div>
+        </div></div>
+       <!-- <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tree,nature');">
+           <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+          <div class="card-img-overlay d-flex flex-column">
+           <div class="card-body">
+              <small class="card-meta mb-2">Thought Leadership</small>
+              <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+             <small><i class="far fa-clock"></i> October 15, 2020</small>
+            </div>
+            <div class="card-footer">
+             <div class="media">
+    <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
+    <div class="media-body">
+      <h6 class="my-0 text-white d-block">Oz COruhlu</h6>
+       <small>Director of UI/UX</small>
+    </div>
+  </div>
+            </div>
+          </div>
+        </div></div>
+    <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?computer,design');">
+           <img class="card-img d-none" src="https://source.unsplash.com/600x900/?computer,design" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+          <div class="card-img-overlay d-flex flex-column">
+           <div class="card-body">
+              <small class="card-meta mb-2">Thought Leadership</small>
+              <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+             <small><i class="far fa-clock"></i> October 15, 2020</small>
+            </div>
+            <div class="card-footer">
+             <div class="media">
+    <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
+    <div class="media-body">
+      <h6 class="my-0 text-white d-block">Oz COruhlu</h6>
+       <small>Director of UI/UX</small>
+    </div>
+  </div>
+            </div>
+          </div>
+        </div></div> -->
+    
+  </div>
+    
+  </div>
+  </section>
+
+
+
+   <!-- Footer -->
+   <footer id="footer">
+    <div class="footer-top font-link">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="/#hero">Home</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="/#about">About us</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="/#">Services</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="/#">Terms of service</a>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <a href="/#">Privacy policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 ">
+            <div class="footer-info">
+              <img src="assets/img/ci.png" alt="" class="img-fluid" />
+              <p>
+                Burla, Sambalpur <br />
+                Odisha, India
+                <br />
+                <br />
+                <strong>Phone:</strong> +91 7609 96 1010 , +91 9658 00 6706
+                <br />
+                <strong>Email:</strong> cosmoinfinitas@gmail.com
+                <br />
+              </p>
+              <div class="social-links mt-3">
+                <a
+                  href="https://twitter.com/CosmoInfinitas"
+                  class="twitter"
+                >
+                  <i class="bx bxl-twitter"></i>
+                </a>
+                <a href="https://t.me/cosmoinfinitas" class="facebook">
+                  <i class="bx bxl-telegram"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/cosmo_infinitas/"
+                  class="instagram"
+                >
+                  <i class="bx bxl-instagram"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/cosmoinfinitas/"
+                  class="linkedin"
+                >
+                  <i class="bx bxl-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Stay connected with us </p>
+            <form action="" method="post">
+              <input type="email" name="email" />
+              <input type="submit" value="Coming Soon . . ." />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright
+        <strong>
+          <span>CosmoInfinitas</span>
+        </strong>
+        . All Rights Reserved
+      </div>
+    </div>
+  </footer>
+
+  <script>
+
+    var timeout;
+    function Function(){
+      timeout = setTimeout(myFunction, 1500);
+    }
+        var preloader = document.querySelector('.load');
+    function myFunction(){
+      preloader.style.display='none';
+    }
+    
+      </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+<script src="assets/js/head.js"></script>
+<!-- <script src="assets/js/form.js"></script> -->
+</body>
+<!-- Vendor JS Files -->
+
+
+</html>
+
+  

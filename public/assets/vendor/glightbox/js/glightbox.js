@@ -325,7 +325,7 @@
         callback = config.callback,
         appendTo = config.appendTo;
     var iframe = document.createElement('iframe');
-    iframe.className = 'vimeo-video gvideo';
+    iframe.class = 'vimeo-video gvideo';
     iframe.src = url;
     iframe.style.width = '100%';
     iframe.style.height = '100%';
@@ -1903,7 +1903,7 @@
         }
 
         var container = document.createElement('div');
-        container.className = 'ginlined-content';
+        container.class = 'ginlined-content';
         container.appendChild(content);
         innerContent = container;
       }
@@ -2595,7 +2595,7 @@
         if (scrollBar > 0) {
           var styleSheet = document.createElement('style');
           styleSheet.type = 'text/css';
-          styleSheet.className = 'gcss-styles';
+          styleSheet.class = 'gcss-styles';
           styleSheet.innerText = ".gscrollbar-fixer {margin-right: ".concat(scrollBar, "px}");
           document.head.appendChild(styleSheet);
 

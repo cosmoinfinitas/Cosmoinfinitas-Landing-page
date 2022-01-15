@@ -295,3 +295,57 @@
     });
   });
 })();
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCi8uubgjWq8-3fwYhUkRhkcw7Xc9N3CpI",
+  authDomain: "cosmoinfinitas-00.firebaseapp.com",
+  databaseURL: "https://cosmoinfinitas-00-default-rtdb.firebaseio.com",
+  projectId: "cosmoinfinitas-00",
+  storageBucket: "cosmoinfinitas-00.appspot.com",
+  messagingSenderId: "890836202000",
+  appId: "1:890836202000:web:95930f2490989ae4619095",
+  measurementId: "G-ZFWKC3CSFT"
+};
+
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+
+let contactInfo = firebase.database().ref("contact");
+
+// Listen for a submit
+document.querySelector(".contactform").addEventListener("submit", submitForm);
+
+function submitForm(e) {
+e.preventDefault();
+
+//   Get input Values
+let name = document.getElementById('name').value;
+let email = document.getElementById('email').value;
+let message = document.getElementById("message").value;
+
+
+console.log(name, email,message);
+
+  saveContactInfo(name, email, message);
+
+
+
+  document.querySelector(".contactform").reset();
+  alert("Thank you for filling the form");
+  
+
+}
+
+// Save infos to Firebase
+function saveContactInfo(name, email, message) {
+let newContactInfo = contactInfo.push();
+
+newContactInfo.set({
+  name: name,
+  email: email,
+  message: message,
+});
+}
+

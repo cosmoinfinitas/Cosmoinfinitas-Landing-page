@@ -747,7 +747,7 @@ utils.htmlInit = function( WidgetClass, namespace ) {
       } catch ( error ) {
         // log error, do not initialize
         if ( console ) {
-          console.error( 'Error parsing ' + dataAttr + ' on ' + elem.className +
+          console.error( 'Error parsing ' + dataAttr + ' on ' + elem.class +
           ': ' + error );
         }
         return;
