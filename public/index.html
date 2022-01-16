@@ -31,6 +31,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="assets/css/loader.css" rel="stylesheet" >
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -41,12 +42,13 @@
     />
 
     <!-- Vendor CSS Files -->
+    <link
+    href="assets/vendor/bootstrap/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+   
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
     <link
       href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
@@ -65,7 +67,31 @@
     <link href="assets/css/style.css" rel="stylesheet" >
     
     <link href="assets/css/games.css" rel="stylesheet" >
-    <link href="assets/css/loader.css" rel="stylesheet" >
+
+    <style>
+      /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #a10c0c #121212;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #121212;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #a10c0c;
+    border-radius: 18px;
+    border: 5px none #ffffff;
+  }
+    </style>
+    
    
 
 
@@ -88,7 +114,13 @@
   <body>
     
 
-     
+    <img id="animLogo" src="assets/img/ci2.png">
+    <div class="screenloader" style="height:100vh; position: fixed; width:100vw; top:0; left:0; z-index:1;">
+      <div class="introAnim animA"></div>
+      <div class="introAnim animB"></div>
+      <div class="introAnim animC"></div>
+      <div class="introAnim animD"></div>
+    </div>
     <!-- <div id="root"></div> -->
     <!--
       This HTML file is a template.
@@ -100,7 +132,7 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <header id="header" class="fixed-top d-flex align-items-cente">
+    <header id="header" class="static-top d-flex align-items-cente ">
       <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
         <a href="index.html" class="logo me-auto me-lg-0">
           <img
@@ -112,7 +144,7 @@
           >
         </a>
 
-        <nav id="navbar" class="navbar order-last order-lg-0">
+        <nav id="navbar" class="navbar order-last order-lg-0 ">
           <ul>
             <li>
               <a class="nav-link scrollto active" href="#hero">
@@ -254,8 +286,8 @@
               <!-- {/* <a href={market} class="btn-menu animated fadeInUp scrollto">
                 Play Game
               </a> */} -->
-              <a class="btn-menu animated fadeInUp scrollto" href="/games">Explore games</a>
-              <a href={discord} class="btn-book animated fadeInUp scrollto">
+              <a class="btn-menu animated fadeInUp scrollto" href="https://play.unity.com/mg/other/project-vsx-maze1">PLAY NOW</a>
+              <a href="https://discord.gg/9YnyyBVjHA" class="btn-book animated fadeInUp scrollto">
                 Join Our Discord
               </a>
             </div>
@@ -323,9 +355,10 @@
               width="700px"
             >
             <a
-              href="https://www.youtube.com/watch?v=dbEI5XTmXtQ&t=52s"
-              class="glightbox play-btn mb-4"
+              href="https://youtu.be/D_8fQ-OXKwE"
+              class="glightbox play-btn mb-4" target="_blank"
             >
+           
               
             </a>
           </div>
@@ -333,6 +366,7 @@
       </div>
     </section>
 
+    
     <!-- Teampage -->
     <!-- <section class="team">
       <h1 class="text-center">Team</h1>
@@ -609,13 +643,18 @@
         </script>
 
  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  
+    
+
   <!-- Template Main JS File -->
+  <script src="assets/js/loader.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/head.js"></script>
   <!-- <script src="assets/js/form.js"></script> -->
