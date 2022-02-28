@@ -1,6 +1,8 @@
-### Cosmoinfinitas is a community driven metaverse wherein a virtual world with infinity possibilities exists.This platform enables its users to buy and sell Land, Avatars, and other wearables with the security of Ethereum Blockchain on top of it. Apart from this, we will soon be releasing our own loot like project named ORE.We are creating a platform influenced by the recent Loot project which added spark to the world of NFT community through its exclusive approach. Cosmoinfinitas is trying to implement something similar to the LOOT Project with Metaverse.
+### This Project we created a Platform where developers can add different genre of Games and Players will be able to convert their rewards earned inside these games to NFTs. Once players earn these in-game Assets they can be converted to NFTs and you can store them inside your Wallet, and all these Assets can be used even in games from other genres or in different games of same genre. 
 
+Interoperability of assets inside the ecosystem completely depends on the creativity of Game Developers. We also have our own Marketplace where you can sell your earned Assets or create Assets for players and sell them. We have future plans to implement lending and borrowing of these Assets which will be extremely beneficial for Players even after they switch over to a different Game.  
 
+### This is the Repo for the Landing Page.
 
 <div id="top"></div>
 [![Contributors][contributors-shield]][contributors-url]
