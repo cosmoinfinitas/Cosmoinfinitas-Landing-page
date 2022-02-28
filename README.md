@@ -65,7 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[https://cosmoinfinitas.tech/][product-screenshot]](https://example.com)
+https://cosmoinfinitas.tech/
 
 This Project we created a Platform where developers can add different genre of Games and Players will be able to convert their rewards earned inside these games to NFTs. Once players earn these in-game Assets they can be converted to NFTs and you can store them inside your Wallet, and all these Assets can be used even in games from other genres or in different games of same genre. 
 
