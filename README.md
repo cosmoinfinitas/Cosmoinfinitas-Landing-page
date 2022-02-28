@@ -1,6 +1,6 @@
 ### This Project we created a Platform where developers can add different genre of Games and Players will be able to convert their rewards earned inside these games to NFTs. Once players earn these in-game Assets they can be converted to NFTs and you can store them inside your Wallet, and all these Assets can be used even in games from other genres or in different games of same genre. 
 
-Interoperability of assets inside the ecosystem completely depends on the creativity of Game Developers. We also have our own Marketplace where you can sell your earned Assets or create Assets for players and sell them. We have future plans to implement lending and borrowing of these Assets which will be extremely beneficial for Players even after they switch over to a different Game.  
+### Interoperability of assets inside the ecosystem completely depends on the creativity of Game Developers. We also have our own Marketplace where you can sell your earned Assets or create Assets for players and sell them. We have future plans to implement lending and borrowing of these Assets which will be extremely beneficial for Players even after they switch over to a different Game.  
 
 ### This is the Repo for the Landing Page.
 
