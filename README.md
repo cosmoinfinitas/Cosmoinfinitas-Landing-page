@@ -1,4 +1,4 @@
-# Cosmoinfinitas is a community driven metaverse wherein a virtual world with infinity possibilities exists.This platform enables its users to buy and sell Land, Avatars, and other wearables with the security of Ethereum Blockchain on top of it. Apart from this, we will soon be releasing our own loot like project named ORE.We are creating a platform influenced by the recent Loot project which added spark to the world of NFT community through its exclusive approach. Cosmoinfinitas is trying to implement something similar to the LOOT Project with Metaverse.
+### Cosmoinfinitas is a community driven metaverse wherein a virtual world with infinity possibilities exists.This platform enables its users to buy and sell Land, Avatars, and other wearables with the security of Ethereum Blockchain on top of it. Apart from this, we will soon be releasing our own loot like project named ORE.We are creating a platform influenced by the recent Loot project which added spark to the world of NFT community through its exclusive approach. Cosmoinfinitas is trying to implement something similar to the LOOT Project with Metaverse.
 
 
 
