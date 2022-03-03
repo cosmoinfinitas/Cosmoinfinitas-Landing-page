@@ -26,14 +26,14 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/cosmoinfinitas/Cosmoinfinitas-Landing-page"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://cosmoinfinitas.tech">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/cosmoinfinitas/Cosmoinfinitas-Landing-page/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/cosmoinfinitas/Cosmoinfinitas-Landing-page/issues">Request Feature</a>
   </p>
 </div>
 
@@ -168,7 +168,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Comsoinfinitas - [@twitter_handle](https://twitter.com/twitter_handle) - comsoinfinitas@gmail.com
+Comsoinfinitas - [@twitter_handle](https://twitter.com/cosmo_infinitas) - comsoinfinitas@gmail.com
+                  [@Linkedin_handle](https://linkedin.com/in/cosmoinfinitas)
 
 Project Link: [https://github.com/cosmoinfinitas/Cosmoinfinitas-Landing-page](https://github.com/cosmoinfinitas/Cosmoinfinitas-Landing-page)
 
