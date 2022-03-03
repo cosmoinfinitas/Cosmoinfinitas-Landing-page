@@ -5,7 +5,7 @@
 
 <div id="top"></div>
 
-[![Contributors][contributors-shield]][https://github.com/cosmoinfinitas/Cosmoinfinitas-Landing-page/graphs/contributors]
+[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -84,10 +84,10 @@ This is the Landing Page of this Project
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
+* [HTML](https://www.w3schools.com/html/)
+* [CSS](https://www.w3schools.com/css/)
+* [Javascript](https://www.javascript.com/)
+* [Bootstrap](https://angular.io/)
 * [Svelte](https://svelte.dev/)
 * [Laravel](https://laravel.com)
 * [Bootstrap](https://getbootstrap.com)
