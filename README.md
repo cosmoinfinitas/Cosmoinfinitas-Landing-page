@@ -5,12 +5,12 @@
 
 <div id="top"></div>
 
-[![Contributors][contributors-shield]][contributors-url]
+<!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-[![LinkedIn][linkedin-shield]][cosmoinfinitas]
+[![LinkedIn][linkedin-shield]][cosmoinfinitas] -->
 
 
 
@@ -87,11 +87,8 @@ This is the Landing Page of this Project
 * [HTML](https://www.w3schools.com/html/)
 * [CSS](https://www.w3schools.com/css/)
 * [Javascript](https://www.javascript.com/)
-* [Bootstrap](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Bootstrap](https://getbootstrap.com/)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -103,29 +100,19 @@ This is the Landing Page of this Project
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/cosmoinfinitas/Cosmoinfinitas-Landing-page.git
    ```
-3. Install NPM packages
+3. Install Bootstrap
    ```sh
-   npm install
+    https://getbootstrap.com/
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -142,15 +129,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+
+See the [open issues](https://github.com/cosmoinfinitas/Cosmoinfinitas-Landing-page/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
